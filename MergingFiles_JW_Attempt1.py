@@ -47,5 +47,8 @@ ChronicCoughDF2
 
 
 #Creating the new variable documenting the number of cough diagnosis per patient
+    #We want to have each unique "patient_id" to have the same count
+    #The count should be based on each "encounter_id"
+    #The ICD code for chronic cough is 'R05.3' 
 ChronicCough = ChronicCoughDF2.assign(cough_dx=)
 
