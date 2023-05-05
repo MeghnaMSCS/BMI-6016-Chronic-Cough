@@ -382,7 +382,7 @@ ccdf
 
 
 #Converting assessed and corrected data frame to csv
-ccdf.to_csv('chronic_cough_final.csv')
+ccdf.to_csv('chroniccough_final.csv')
 
 
 # END
